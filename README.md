@@ -219,18 +219,7 @@ Complete this section and commit your changes. Keep your answers short and preci
 
    Debugging and testing.
 
-## Grading Rubric
 
-|                             | Points Possible | Points Awarded |
-| :------------------         | --------------: | -------------: |
-| DSString Class              | 20              |                |
-| Training Algo (+ counters)  | 25              |                |
-| Classification Algo         | 20              |                |
-| Proper Memory Management    | 10              |                |
-| Formatting, Comments, etc.  | 10              |                |
-| Proper use of GitHub        |  5              |                |
-| Answers to questions        | 10              |                |
-| Accuracy/Improvements Bonus | +10             |                |
 
 
 
