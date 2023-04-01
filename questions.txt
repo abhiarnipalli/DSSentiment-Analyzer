@@ -1,0 +1,13 @@
+Answers
+1. I classified each tweet by checking the positive or negative sentiment of each tweet and then creating a new DSString object for that word. If the word exists in each set, it checks to see if the review is postive or negatice and then adds this sentiment. If positive, positive weightage is added to the word and if negative, negative weightage is added. If the word can't be found in the set, it checks again and continues through the words.
+
+2. My big Oh notation is O(N^2) because my program as a whole takes 2 min plus to run as an entirety.
+
+3. Classification Big Oh notation is O(n^2) as well and takes 4 mi plus to run.
+
+4. When running val grind, no leaks appear and I deleted allocated memory to free when using dynamid memory allocation.
+
+5. Debugging and testing.
+
+
+
