@@ -181,43 +181,7 @@ Some tweets might have interesting characters in them that aren’t part of the 
 
 [Naive Bayes classifiers](https://en.wikipedia.org/wiki/Naive_Bayes_classifier) are a family of simple "probabilistic classifiers" based on applying Bayes' theorem. You can try to implement this strategy (this is very advanced and probably not fun using the data structures we have learned so far).
 
-## Time Line 
 
-You have about four weeks to complete the assignment. Start right away! **The lab TA will expect that you already have most of that week's work completed. Come with prepared questions and
-be prepared to answer the TA's questions about your code.**
-
-* Week 1: DSString Class and a method to store counters for strings. You should be able
-  to represent a set of words with counts. Test with `valgrind` to make sure you do not have 
-  a memory leak. 
-* Week 2: Training + adapting the string counter. Break text into words and count them. You    
-  should have lists with positive and negative words.  
-* Week 3: Classification and accuracy calculation.
-* Week 4: Cleaning up code. Improving the documentation comments. Answering the questions below.
-
-## Answers
-
-Complete this section and commit your changes. Keep your answers short and precise.
-
-1. How do you classify a new tweet? Give a short description of the main steps.
-
-   I classified each tweet by checking the positive or negative sentiment of each tweet and then creating a new DSString object for that word. If the word exists in each set, it checks to see if the review is postive or negatice and then adds this sentiment. If positive, positive weightage is added to the word and if negative, negative weightage is added. If the word can't be found in the set, it checks again and continues through the words.
-
-2. What is the time complexity of your training implementation (Big-Oh notation)? Explain why.
-
-   My big Oh notation is O(logn) because my program as a whole takes 2 min plus to run as an entirety.
-
-3. What is the time complexity of your classification implementation (Big-Oh notation)? Explain why.
-
-   Classification Big Oh notation is O(logn) as well and takes 4 mi plus to run.
-
-4. How do you know that you use proper memory management? That is that you do not have
-   a memory leak?
-
-  When running val grind, no leaks appear and I deleted allocated memory to free when using dynamid memory allocation.
-
-5. What was the most challenging part of the assignment?
-
-   Debugging and testing.
 
 
 
